@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script src="codealong2.js" type="text/javascript"></script>
+	<title>Country Information</title>
+</head>
+
+<body>
+	<p> <!-- paragraph marker added here for spacing -->
+		<h3> Type in a country name to find out its sunrise time and language! </h3>
+		<textarea id="country-name" rows="1" cols ="20">Type a country here</textarea>
+		<button onclick="getCountryLanguage()">What is the country language?</button>
+		<button onclick="getCountrySunrise()">What is the country sunrise?</button>
+	</p>
+	<footer>
+		<p>This map uses the <a href="https://restcountries.eu">REST Countries API</a></p>
+		<p>This map uses the <a href="https://sunrise-sunset.org/api">Sunrise Sunset API </a></p>
+	</footer>
+</body>
+</html>
